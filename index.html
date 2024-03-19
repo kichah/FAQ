@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body>
+    <main class="faq__card">
+      <div class="faq__card--title">
+        <img
+          src="/assets/images/icon-star.svg"
+          alt="star"
+          class="faq__card--star"
+        />
+        <h1 class="faq__card--heading">FAQs</h1>
+      </div>
+      <div class="faq__card--box">
+        <div class="faq__card--question">
+          <h2 class="faq__card--question-title" data-answer="1">
+            What is Frontend Mentor, and how will it help me?
+          </h2>
+          <div class="faq__card--question-state" data-answer="1">
+            <img
+              class="plus-1"
+              src="assets/images/icon-plus.svg"
+              alt="+ or -"
+            />
+            <img
+              class="minus-1 hidden"
+              src="assets/images/icon-minus.svg"
+              alt="+ or -"
+            />
+          </div>
+        </div>
+        <p class="faq__card--answer an-1 hidden">
+          Frontend Mentor offers realistic coding challenges to help developers
+          improve their frontend coding skills with projects in HTML, CSS, and
+          JavaScript. It's suitable for all levels and ideal for portfolio
+          building.
+        </p>
+      </div>
+      <div class="faq__card--box">
+        <div class="faq__card--question">
+          <h2 class="faq__card--question-title" data-answer="2">
+            Is Frontend Mentor free?
+          </h2>
+          <div class="faq__card--question-state" data-answer="2">
+            <img class="plus-2" src="assets/images/icon-plus.svg" alt="+" />
+            <img
+              class="minus-2 hidden"
+              src="assets/images/icon-minus.svg"
+              alt="-"
+            />
+          </div>
+        </div>
+        <p class="faq__card--answer an-2 hidden">
+          Yes, Frontend Mentor offers both free and premium coding challenges,
+          with the free option providing access to a range of projects suitable
+          for all skill levels.
+        </p>
+      </div>
+
+      <div class="faq__card--box">
+        <div class="faq__card--question">
+          <h2 class="faq__card--question-title" data-answer="3">
+            Can I use Frontend Mentor projects in my portfolio?
+          </h2>
+          <div class="faq__card--question-state" data-answer="3">
+            <img class="plus-3" src="assets/images/icon-plus.svg" alt="+" />
+            <img
+              class="minus-3 hidden"
+              src="assets/images/icon-minus.svg"
+              alt="-"
+            />
+          </div>
+        </div>
+        <p class="faq__card--answer an-3 hidden">
+          Yes, you can use projects completed on Frontend Mentor in your
+          portfolio. It's an excellent way to showcase your skills to potential
+          employers!
+        </p>
+      </div>
+
+      <div class="faq__card--box">
+        <div class="faq__card--question">
+          <h2 class="faq__card--question-title" data-answer="4">
+            How can I get help if I'm stuck on a Frontend Mentor challenge?
+          </h2>
+          <div class="faq__card--question-state" data-answer="4">
+            <img class="plus-4" src="assets/images/icon-plus.svg" alt="+" />
+            <img
+              class="minus-4 hidden"
+              src="assets/images/icon-minus.svg"
+              alt="-"
+            />
+          </div>
+        </div>
+        <p class="faq__card--answer an-4 hidden">
+          The best place to get help is inside Frontend Mentor's Discord
+          community. There's a help channel where you can ask questions and seek
+          support from other community members.
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

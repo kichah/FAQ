@@ -1,0 +1,16 @@
+{
+  "name": "faq-accordion-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)",
+  "main": "script.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "live-server": "live-server",
+    "start": "npm-run-all --parallel live-server watch:sass"
+  },
+  "author": "kichah",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
